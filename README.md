@@ -1,9 +1,36 @@
 # Dotfiles
-My dotfiles for my linux workstation, i use this for programming and red team activites.
+> These are the dotfiles i used on my linux machine, i use this machine to program and also for red team activites, i may not own some of the resources, the forked data is always refrenced to the owner, if not, contact me :D
 
-- AwesomeWM: 
-Theres an install script available but it was created on a Parrot os machine,
-altough it should work on all machines, i advise that you see it and edit it as
-needed, the awesome theme is a fork from the theme "Mirage" with minimal edits,
-there is a link to all resources reused at the end of README.md :D
-- Nvim:
+### Description
+> This config is maintatined by me to create an OK linux exprience on a low end device, so it will be as minimal and as practicall possible, i try to avoid bloats 
+
+### Screenshots
+Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+
+Installation
+Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+
+Usage
+Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+
+Support
+Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+
+Roadmap
+If you have ideas for releases in the future, it is a good idea to list them in the README.
+
+Contributing
+State if you are open to contributions and what your requirements are for accepting them.
+
+For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+
+You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+
+Authors and acknowledgment
+Show your appreciation to those who have contributed to the project.
+
+License
+For open source projects, say how it is licensed.
+
+Project status
+If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
