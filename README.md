@@ -28,34 +28,27 @@ watch the results in the right.
 
 Dillinger uses a number of open source projects to work properly:
 
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
+- [Tmux](https://github.com/tmux/tmux) - For managing terminals and splitting them for more efficiency
+- [AwesomeWM](https://github.com/awesomeWM/awesome) - awesome window manager
+- [NeoVim](https://github.com/neovim/neovim) - Vim but better.
+- [Startpage](https://www.reddit.com/r/startpages/comments/i348vf/start_cube/) - Made by a fellow reddit user, its a super cool startpage for chrome 
 
 
 ## Installation
+Use the install script or do it manually!
 
+## Refrences
+Here are the list of repos that i reused/forked
 
-| Plugin | README |
+| Forked/Reused | LINK |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| NvimConfig | [rafi/vim-config](https://github.com/rafi/vim-config) |
+| AwesomeConfig | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
 
 ## Development
 
 Want to contribute? Great!
-
+Make a PR and i will visit it :D
 
 
 
@@ -63,27 +56,5 @@ Want to contribute? Great!
 
 MIT
 
-**Free Software, Hell Yeah!**
+**Free Stuff, Hell Yeah!**
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
