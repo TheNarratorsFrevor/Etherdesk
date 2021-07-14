@@ -31,7 +31,7 @@ Dillinger uses a number of open source projects to work properly:
 - [Tmux](https://github.com/tmux/tmux) - For managing terminals and splitting them for more efficiency
 - [AwesomeWM](https://github.com/awesomeWM/awesome) - awesome window manager
 - [NeoVim](https://github.com/neovim/neovim) - Vim but better.
-- [Startpage](https://www.reddit.com/r/startpages/comments/i348vf/start_cube/) - Made by a fellow reddit user, its a super cool startpage for chrome 
+- [Startpage](https://github.com/Tobias-Schoch/startpage-wave) - Made by a fellow reddit user, its a super cool startpage for chrome 
 
 
 ## Installation
@@ -44,7 +44,7 @@ Here are the list of repos that i reused/forked
 | ------ | ------ |
 | NvimConfig | [rafi/vim-config](https://github.com/rafi/vim-config) |
 | AwesomeConfig | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
-
+|Startpage|[Tobias-Schoch/startpage-wave](https://github.com/Tobias-Schoch/startpage-wave)|
 ## Development
 
 Want to contribute? Great!
