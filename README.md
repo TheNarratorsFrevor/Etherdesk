@@ -1,3 +1,4 @@
+![Banner](hhttps://github.com/DisheartenedEthereal/dotfiles/gitbanner.png)
 # Dotfiles, yay!
 
 ![Build Status](https://img.shields.io/badge/Linux-dotfiles-yellowgreener)
