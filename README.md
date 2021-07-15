@@ -33,6 +33,8 @@ Dillinger uses a number of open source projects to work properly:
 - [AwesomeWM](https://github.com/awesomeWM/awesome) - awesome window manager
 - [NeoVim](https://github.com/neovim/neovim) - Vim but better.
 - [Startpage](https://github.com/Tobias-Schoch/startpage-wave) - Made by a fellow reddit user, its a super cool startpage for chrome 
+- [Telegram Desktop](https://t.me/addtheme/qA9wezvgHXCfzpEi) - The telegram desktop theme is usable at this link
+- [Telegram Mobile](https://t.me/addtheme/blueglazephone) - The same theme, ported on mobile using [This tool](https://github.com/MrYadro/TDeskDroid)
 
 
 ## Installation
