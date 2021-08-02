@@ -34,15 +34,20 @@ Dillinger uses a number of open source projects to work properly:
 
 
 ## Installation
-Use the install script or do it manually!
+You need to change a couple of lines to your preference:
+> bspwm/bspwmrc:19 path to wallpaper
+> shxkd/shxkdrc:7 path to alacritty config and executable
+> shxkd/shxkdrc:9 path to alacritty config and executable
+> tmux/.tmux.local.conf:379 if you want tmux status bar enabled 
 
+Hopefully thats it.
 ## Refrences
 Here are the list of repos that i reused/forked
 
 | Forked/Reused | LINK |
 | ------ | ------ |
 | NvimConfig | [rafi/vim-config](https://github.com/rafi/vim-config) |
-| ~~AwesomeConfig~~ | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
+| ~~AwesomeConfig~~~ | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
 |Startpage|[Tobias-Schoch/startpage-wave](https://github.com/Tobias-Schoch/startpage-wave)|
 ## Development
 
