@@ -42,7 +42,7 @@ Here are the list of repos that i reused/forked
 | Forked/Reused | LINK |
 | ------ | ------ |
 | NvimConfig | [rafi/vim-config](https://github.com/rafi/vim-config) |
-| ~~AwesomeConfig~~~ | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
+| ~~AwesomeConfig~~ | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
 |Startpage|[Tobias-Schoch/startpage-wave](https://github.com/Tobias-Schoch/startpage-wave)|
 ## Development
 
