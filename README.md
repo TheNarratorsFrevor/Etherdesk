@@ -37,10 +37,6 @@ The install process is normal, but you may need to change a couple of lines to y
 > tmux/.tmux.local.conf:379 if you want tmux status bar enabled (it gets enabled by default when you open vim for the first time in tmux)
 
 Hopefully thats it.
-## Refrences
-Here are the list of repos that i reused/forked
-
-
 ## Development
 
 Want to contribute? Great!
