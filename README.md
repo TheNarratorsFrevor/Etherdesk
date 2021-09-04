@@ -16,36 +16,21 @@ This is my colletion of dotfiles created and optimized for my programming work a
 |Polybar Config|[adi1090x/polybar-themes](https://github.com/adi1090x/polybar-themes)|
 | ~~AwesomeConfig~~ | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
 
-- BSPWM
-- Nvim
-- Gonevim for gvim
-- Tmux
-
 > and some more coming
 
 ## Aiming to be
 
-- Basic, minimal
+- Basic, minimal, usable
 - FAST! (runs on about 350MB of ram idle)
 - Practical
 - All that can be configured, shall be rice-ed
 
 ~~Although theres an install script available, i strongly advise you to read the python file and edit it to suit your system.~~
 > There currently is no working install script available.
-## Stuff used
-
-Dillinger uses a number of open source projects to work properly:
-
-- [Tmux](https://github.com/tmux/tmux) - For managing terminals and splitting them for more efficiency
-- [OLD] - [AwesomeWM](https://github.com/awesomeWM/awesome) - awesome window manager
-- [NeoVim](https://github.com/neovim/neovim) - Vim but better.
-- [Startpage](https://github.com/Tobias-Schoch/startpage-wave) - Made by a fellow reddit user, its a super cool startpage for chrome 
-- [OLD] - [Telegram Desktop](https://t.me/addtheme/qA9wezvgHXCfzpEi) - The telegram desktop theme is usable at this link
-- [OLD] - [Telegram Mobile](https://t.me/addtheme/blueglazephone) - The same theme, ported on mobile using [This tool](https://github.com/MrYadro/TDeskDroid)
 
 
 ## Installation
-You need to change a couple of lines to your preference:
+The install process is normal, but you may need to change a couple of lines to your preference:
 > bspwm/bspwmrc:24 path to wallpaper
 > shxkd/shxkdrc:7 path to alacritty config and executable
 > shxkd/shxkdrc:9 path to alacritty config and executable
