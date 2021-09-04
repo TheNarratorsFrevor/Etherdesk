@@ -1,13 +1,24 @@
-![Banner](https://raw.githubusercontent.com/DisheartenedEthereal/dotfiles/main/gitbanner.png)
+![Banner](https://raw.githubusercontent.com/DisheartenedEthereal/dotfiles/main/ss_vim.png)
+![Banner](https://raw.githubusercontent.com/DisheartenedEthereal/dotfiles/main/ss_desk.png)
 # Dotfiles, yay!
 
 ![Build Status](https://img.shields.io/badge/Linux-dotfiles-yellowgreener)
 
 This is my colletion of dotfiles created and optimized for my programming work and red team activites, although i might not own all the resources, the forked data is always refreneced
-## I have :
-- AwesomeWM
+## I am currently using :
+
+| Forked/Used | SOURCE |
+| ------ | ------ |
+| Fish shell | [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) |
+|Startpage|[Arturro43/Vento](https://github.com/Arturro43/Vento)|
+|Tmux|[tmux/tmux](https://github.com/tmux/tmux)|
+|Bar|[polybar/polybar](https://github.com/polybar/polybar)|
+|Polybar Config|[adi1090x/polybar-themes](https://github.com/adi1090x/polybar-themes)|
+| ~~AwesomeConfig~~ | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
+
+- BSPWM
 - Nvim
-- Gonevim
+- Gonevim for gvim
 - Tmux
 
 > and some more coming
@@ -35,20 +46,16 @@ Dillinger uses a number of open source projects to work properly:
 
 ## Installation
 You need to change a couple of lines to your preference:
-> bspwm/bspwmrc:19 path to wallpaper
+> bspwm/bspwmrc:24 path to wallpaper
 > shxkd/shxkdrc:7 path to alacritty config and executable
 > shxkd/shxkdrc:9 path to alacritty config and executable
-> tmux/.tmux.local.conf:379 if you want tmux status bar enabled 
+> tmux/.tmux.local.conf:379 if you want tmux status bar enabled (it gets enabled by default when you open vim for the first time in tmux)
 
 Hopefully thats it.
 ## Refrences
 Here are the list of repos that i reused/forked
 
-| Forked/Reused | LINK |
-| ------ | ------ |
-| NvimConfig | [rafi/vim-config](https://github.com/rafi/vim-config) |
-| ~~AwesomeConfig~~ | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
-|Startpage|[Tobias-Schoch/startpage-wave](https://github.com/Tobias-Schoch/startpage-wave)|
+
 ## Development
 
 Want to contribute? Great!
