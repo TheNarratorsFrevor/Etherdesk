@@ -1,6 +1,7 @@
 # Detheral's dotfiles
 
 ![Build Status](https://img.shields.io/badge/Linux-dotfiles-yellowgreener)
+
 This is the collection of dotfiles and configuration of my low-end Artix machine, these are all configured to my personal fittings and may not work for everyone, but do feel free to peek around, take configs and customize them to your own taste.
 > I may not own everyone of these configurations, i'll try to link everything.
 ## I am currently using :
@@ -14,8 +15,6 @@ This is the collection of dotfiles and configuration of my low-end Artix machine
 |Polybar Config|[adi1090x/polybar-themes](https://github.com/adi1090x/polybar-themes)|
 
 
-> and some more coming
-
 ## Aiming to be
 
 - Basic, minimal, usable
@@ -27,11 +26,12 @@ This is the collection of dotfiles and configuration of my low-end Artix machine
 
 ## Installation
 
-Hopefully thats it.
+I'll make a script soon.
+
 ## Development
 
 Want to contribute? Great!
-Make a PR and i will visit it :D
+Make a PR and i will review it :D
 
 
 
@@ -39,5 +39,5 @@ Make a PR and i will visit it :D
 
 MIT
 
-**Free Stuff, Hell Yeah!**
+**Free Stuff**
 
