@@ -1,10 +1,12 @@
 # Detheral's dotfiles
-
+![Screenshot](https://raw.githubusercontent.com/DisheartenedEthereal/dotfiles/main/github-dotfiles-1.png)
 ![Build Status](https://img.shields.io/badge/Linux-dotfiles-yellowgreener)
 
 This is the collection of dotfiles and configuration of my low-end Artix machine, these are all configured to my personal fittings and may not work for everyone, but do feel free to peek around, take configs and customize them to your own taste.
 > I may not own everyone of these configurations, i'll try to link everything.
 ## I am currently using :
+
+> outdated, will fix tomorrow 
 
 | Forked/Used | SOURCE |
 | ------ | ------ |
