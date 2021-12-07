@@ -1,0 +1,8 @@
+* {
+background:			#010201;
+foreground:			#5F5B48;
+selected:			#302f27;
+urgent:				#008874;
+on:					#364995;
+off:				#008874;
+}

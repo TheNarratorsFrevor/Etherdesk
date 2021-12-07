@@ -1,0 +1,28 @@
+#!/bin/bash
+
+DIR="$HOME/.config/bspwm"
+BSP="$HOME/.config/bspwm/themes"
+rofi_command="rofi -theme $DIR/rofi/themes/themes.rasi"
+
+# Themes
+theme_0="Navy Blue"
+theme_1="Muted Green"
+theme_2="Blood Red"
+
+# Variable passed to rofi
+options="$theme_0\n$theme_1\n$theme_2"
+
+chosen="$(echo -e "$options" | $rofi_command -p "Available themes" -dmenu -selected-row 0)"
+case $chosen in
+    $theme_0)
+        bash ${BSP}/set-theme  'cyberpunk.jpg' 'cyberpunk' 'Cyberpunk' 'Archcraft-Dark' 'Arc-Cursor-Cyan'
+        ;;
+    $theme_1)
+        bash ${BSP}/set-theme  'groot.jpg' 'groot' 'Groot' 'Luna-Dark' 'Arc-Cursor-Yellow'
+        ;;
+    $theme_2)
+        bash ${BSP}/set-theme  'blade.jpg' 'blade' 'Blade' 'Nordic-Folders' 'Nordic-Cursor'
+        ;;
+esac
+
+

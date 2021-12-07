@@ -1,0 +1,62 @@
+#!/bin/bash
+
+DIR="$HOME/.config/bspwm"
+
+rofi_command="rofi -theme $DIR/rofi/themes/mpd.rasi"
+
+# Gets the current status of mpd (for us to parse it later on)
+status="$(playerctl --player=spotify status)"
+current=$(playerctl --player=spotify metadata --format "{{ artist }} - {{ title }}" | cut -f1 -d"(")
+
+# Defines the Play / Pause option content
+if [[ $status == *"Playing"* ]]; then
+    play_pause=""
+else
+    play_pause=""
+fi
+active=""
+urgent=""
+
+if [[ $(playerctl --player=spotify metadata --format "{{ title }}" | cut -f1 -d"(") == *"Advertisement"* ]]; then
+	current="Advertisement"
+else
+	:
+fi
+
+# Display if repeat mode is on / off
+
+stop=""
+next="怜"
+previous="玲"
+music=""
+
+# Variable passed to rofi
+options="$previous\n$play_pause\n$stop\n$next"
+
+# Get the current playing song
+
+# If mpd isn't running it will return an empty string, we don't want to display that
+
+if [ "$(playerctl --player=spotify metadata --format "{{ title }} - {{ artist }}" >>/dev/null 2>&1; echo $?)" == "1" ]; then
+    current="Not Playing"
+else
+    :
+fi
+
+
+# Spawn the mpd menu with the "Play / Pause" entry selected by default
+chosen="$(echo -e "$options" | $rofi_command -p "$current" -dmenu $active $urgent -selected-row 1)"
+case $chosen in
+    $previous)
+        playerctl --player=spotify previous
+        ;;
+    $play_pause)
+        playerctl --player=spotify play-pause
+        ;;
+    $stop)
+        pkill spotify
+        ;;
+    $next)
+        playerctl --player=spotify next
+        ;;
+esac
