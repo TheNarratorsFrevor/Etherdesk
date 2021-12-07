@@ -1,13 +1,8 @@
-THIS IS OUTDATED AND I DONT EVEN KNOW IF IT WORKS.
-
-
-![Banner](https://raw.githubusercontent.com/DisheartenedEthereal/dotfiles/main/ss_vim.png)
-![Banner](https://raw.githubusercontent.com/DisheartenedEthereal/dotfiles/main/ss_desk.png)
-# Dotfiles, yay!
+# Detheral's dotfiles
 
 ![Build Status](https://img.shields.io/badge/Linux-dotfiles-yellowgreener)
-
-This is my colletion of dotfiles created and optimized for my programming work and red team activites, although i might not own all the resources, the forked data is always refreneced
+This is the collection of dotfiles and configuration of my low-end Artix machine, these are all configured to my personal fittings and may not work for everyone, but do feel free to peek around, take configs and customize them to your own taste.
+> I may not own everyone of these configurations, i'll try to link everything.
 ## I am currently using :
 
 | Forked/Used | SOURCE |
@@ -17,7 +12,7 @@ This is my colletion of dotfiles created and optimized for my programming work a
 |Tmux|[tmux/tmux](https://github.com/tmux/tmux)|
 |Bar|[polybar/polybar](https://github.com/polybar/polybar)|
 |Polybar Config|[adi1090x/polybar-themes](https://github.com/adi1090x/polybar-themes)|
-| ~~AwesomeConfig~~ | [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles) |
+
 
 > and some more coming
 
@@ -26,18 +21,11 @@ This is my colletion of dotfiles created and optimized for my programming work a
 - Basic, minimal, usable
 - FAST! (runs on about 350MB of ram idle)
 - Practical
-- All that can be configured, shall be rice-ed
 
-~~Although theres an install script available, i strongly advise you to read the python file and edit it to suit your system.~~
-> There currently is no working install script available.
 
+> This repo is in progress and still is quite unfinished.
 
 ## Installation
-The install process is normal, but you may need to change a couple of lines to your preference:
-> bspwm/bspwmrc:24 path to wallpaper
-> shxkd/shxkdrc:7 path to alacritty config and executable
-> shxkd/shxkdrc:9 path to alacritty config and executable
-> tmux/.tmux.local.conf:379 if you want tmux status bar enabled (it gets enabled by default when you open vim for the first time in tmux)
 
 Hopefully thats it.
 ## Development
