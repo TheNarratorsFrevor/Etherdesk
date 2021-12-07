@@ -1,3 +1,6 @@
+THIS IS OUTDATED AND I DONT EVEN KNOW IF IT WORKS.
+
+
 ![Banner](https://raw.githubusercontent.com/DisheartenedEthereal/dotfiles/main/ss_vim.png)
 ![Banner](https://raw.githubusercontent.com/DisheartenedEthereal/dotfiles/main/ss_desk.png)
 # Dotfiles, yay!
