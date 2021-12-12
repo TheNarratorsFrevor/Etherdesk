@@ -5,6 +5,8 @@ killall sxhkd; sxhkd &
 killall picom; picom &
 killall dunst; dunst &
 feh --bg-fill -r -z ~/Pictures/Wallpapers &
+# fix java apps
+export _JAVA_AWT_WM_NONREPARENTING=1
 # redshift -x && redshift -O 4000k &
 xsetroot -cursor_name left_ptr &
 $HOME/.config/polybar/launch.sh &
