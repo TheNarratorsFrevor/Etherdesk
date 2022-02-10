@@ -6,7 +6,7 @@ configuration {
   font: "JetBrains Mono 10";
 }
 
-@theme "/dev/null"
+//@theme "/dev/null"
 
 * {
   bg: #151515;
@@ -52,3 +52,4 @@ element-text, element-icon {
   background-color: inherit;
   text-color: inherit;
 }
+@theme "/usr/share/rofi/themes/dmenu.rasi"
