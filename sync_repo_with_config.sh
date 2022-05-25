@@ -1,5 +1,5 @@
 # remove old configs
-rm -r i3 conky bspwm mpd rofi ncmpcpp fish gtk* polybar dunst kitty sxhkd .tmux.conf
+rm -rf i3 conky bspwm nvim mpd rofi ncmpcpp fish gtk* polybar dunst kitty sxhkd .tmux.conf
 # copy new configs from .config
 #cp -r ~/.config/bspwm .
 #cp -r ~/.config/cmus .
@@ -15,5 +15,10 @@ cp -r ~/.config/i3 .
 cp -r ~/.config/mpd .
 #cp -r ~/.config/conky .
 cp $HOME/.tmux.conf .
+# nvim stuff
+mkdir nvim
+cp -r ~/.config/nvim/*.vim nvim/
+cp -r ~/.config/nvim/colors nvim/
+
 # make an automatic commit
-git add . && git commit -m "This is an automatic commit to keep the repo up to date"
+git add . && git commit -m "This is being done automatically."
