@@ -1,45 +1,25 @@
-# Detheral's dotfiles
-![Screenshot](https://raw.githubusercontent.com/DisheartenedEthereal/dotfiles/main/github-dotfiles-1.png)
-![Build Status](https://img.shields.io/badge/Linux-dotfiles-yellowgreener)
+![Screenshot](https://github.com/DisheartenedEthereal/Etherdesk/raw/main/ss_2.png)
 
-This is the collection of dotfiles and configuration of my low-end Artix machine, these are all configured to my personal fittings and may not work for everyone, but do feel free to peek around, take configs and customize them to your own taste.
-> I may not own everyone of these configurations, i'll try to link everything.
-## I am currently using :
+# Ethereal's Desk
+This repository contains all my dot-files alongside the tools i use to manage them, this setup is quite complicated and somewhat bloated, so feel free to adapt the whole environment or parts of it to your liking.
 
-> outdated, will fix tomorrow 
+## Ideology
 
-| Forked/Used | SOURCE |
-| ------ | ------ |
-| Fish shell | [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) |
-|Startpage|[Arturro43/Vento](https://github.com/Arturro43/Vento)|
-|Tmux|[tmux/tmux](https://github.com/tmux/tmux)|
-|Bar|[polybar/polybar](https://github.com/polybar/polybar)|
-|Polybar Config|[adi1090x/polybar-themes](https://github.com/adi1090x/polybar-themes)|
+I needed a setup that could handle multiple programming environments whilst being as lightweight and minimal as possible and so this is what i came up with.
 
-
-## Aiming to be
-
-- Basic, minimal, usable
-- FAST! (runs on about 350MB of ram idle)
-- Practical
-
-
-> This repo is in progress and still is quite unfinished.
-
+## Applications, dependencies, ETC.
+For **WindowManager** , i use [i3-gaps](https://github.com/Airblader/i3), as for **code editors and IDEs**, i use [NVim (primary)](https://github.com/neovim/neovim), [Emacs (secondary),](https://github.com/emacs-mirror/emacs) [VSCodium](https://vscodium.com/) (rarely). 
+here's a list of everything you *probably* need to run this setup, as a yay command :
+```sh
+yay -S polybar neovim i3-gaps dunst ncmpcpp rofi fish kitty mpd emacs flameshot feh  
+```
 ## Installation
 
-I'll make a script soon.
+I will make a install script soon, but for now, you could figure it out yourself.
 
-## Development
+## Credits
 
-Want to contribute? Great!
-Make a PR and i will review it :D
+This setup is practically ravaged, i shamelessly stole some of the stuff from others and i also made some stuff myself, i will try to credit the owners.
 
-
-
-## License
-
-MIT
-
-**Free Stuff**
+> I3-Gaps & Rofi : https://github.com/Manas140/dotfiles 
 
