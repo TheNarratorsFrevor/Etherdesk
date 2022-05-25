@@ -1,0 +1,54 @@
+
+
+foreground            #ABA19B
+background            #0C0C0E
+selection_foreground  #BEB6B1
+selection_background  #0C0C0E
+url_color             #62382D
+enable_audio_bell no                                                            
+font_size 11                                                                    
+font_family JetbrainsMono                                                       
+remember_window_size no                                                         
+cursor_blink_interval 0                                                         
+window_padding_width 8                                                          
+initial_window_width 800                                                        
+initial_window_height 600  
+confirm_os_window_close 0
+# black
+color0   #0C0C0E
+color8   #171719
+
+# red
+color1   #80716C
+color9   #80716C
+
+# green
+color2   #80716C
+color10  #80716C
+
+# yellow
+color3   #B26957
+color11  #B26957
+
+# blue
+color4  #80716C
+color12 #80716C
+
+# magenta
+color5   #1E1918
+color13  #1E1918
+
+# cyan
+color6   #B26957
+color14  #8ec07b
+
+# white
+color7   #ABA19B 
+color15  #ABA19B 
+
+
+# mark1_background #ABA19B
+# mark2_foreground #ABA19B
+# mark3_foreground #ABA19B
+# @Munsterberg
+
