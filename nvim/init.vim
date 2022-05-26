@@ -5,7 +5,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Yggdroot/indentLine'
 Plug 'xuyuanp/nerdtree-git-plugin' 
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'majutsushi/tagbar'
 Plug 'glts/vim-magnum'
 Plug 'glts/vim-radical'
