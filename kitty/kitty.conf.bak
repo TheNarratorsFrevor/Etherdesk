@@ -1,54 +1,37 @@
-
-
-foreground            #ABA19B
-background            #0C0C0E
-selection_foreground  #BEB6B1
-selection_background  #0C0C0E
-url_color             #62382D
-enable_audio_bell no                                                            
-font_size 11                                                                    
-font_family JetbrainsMono                                                       
-remember_window_size no                                                         
-cursor_blink_interval 0                                                         
-window_padding_width 8                                                          
-initial_window_width 800                                                        
-initial_window_height 600  
+background  #F7F7F7
+foreground  #464646
+selection_background        #464646
+selection_foreground        #f7f7f7
+url_color        #525252
+cursor        #cccccc
+active_border_color        #ababab
+inactive_border_color        #e3e3e3
+active_tab_background        #e3e3e3
+active_tab_foreground        #555555
+inactive_tab_background        #f7f7f7
+inactive_tab_foreground        #999999
+tab_bar_background        #f7f7f7
+font_family JetbrainsMono  
 confirm_os_window_close 0
-# black
-color0   #0C0C0E
-color8   #171719
-
-# red
-color1   #80716C
-color9   #80716C
-
-# green
-color2   #80716C
-color10  #80716C
-
-# yellow
-color3   #B26957
-color11  #B26957
-
-# blue
-color4  #80716C
-color12 #80716C
-
-# magenta
-color5   #1E1918
-color13  #1E1918
-
-# cyan
-color6   #B26957
-color14  #8ec07b
-
-# white
-color7   #ABA19B 
-color15  #ABA19B 
-
-
-# mark1_background #ABA19B
-# mark2_foreground #ABA19B
-# mark3_foreground #ABA19B
-# @Munsterberg
-
+color0        #f7f7f7
+color1        #7c7c7c
+color2        #8e8e8e
+color3        #a0a0a0
+color4        #686868
+color5        #747474
+color6        #868686
+color7        #464646
+color8        #ababab
+color9        #7c7c7c
+color10        #8e8e8e
+color11        #a0a0a0
+color12        #686868
+color13        #747474
+color14        #868686
+color15        #000000
+color16        #999999
+color17        #5e5e5e
+color18        #e3e3e3
+color19        #b9b9b9
+color20        #525252
+color21        #252525

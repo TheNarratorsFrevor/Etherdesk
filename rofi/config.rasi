@@ -1,15 +1,14 @@
 configuration {
   modi: "drun";
-  display-drun: "";
+  display-drun: "r:";
   drun-display-format: "{icon}";
   show-icons: true;
   font: "JetBrains Mono 10";
 }
 
-@theme "/dev/null"
-
+//@theme "/dev/null"
 * {
-  bg: #151515;
+  bg: #000000;
   fg: #E8E3E3;
   al: #1c1c1c;
   background-color: @bg;
@@ -22,7 +21,7 @@ window {
   children: [ horibox ];
 }
 prompt {
-  font: "feather 12";
+  font: "PxPlus IBM MDA";
   background-color: @al;
   vertical-align: 0.5;
   padding: 0.6em 0.75em;
@@ -52,3 +51,4 @@ element-text, element-icon {
   background-color: inherit;
   text-color: inherit;
 }
+@theme "/usr/share/rofi/themes/dmenu.rasi"

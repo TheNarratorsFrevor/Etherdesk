@@ -2,11 +2,12 @@ call plug#begin('~/.config/nvim/plugs')
 Plug 'mhinz/vim-startify'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'sheerun/vim-polyglot'
+Plug 'mhartington/oceanic-next'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Yggdroot/indentLine'
 Plug 'xuyuanp/nerdtree-git-plugin' 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'majutsushi/tagbar'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'majutsushi/tagbar', { 'on': 'TagbarToggle'	}
 Plug 'glts/vim-magnum'
 Plug 'glts/vim-radical'
 Plug 'SirVer/ultisnips'
@@ -32,16 +33,16 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'wakatime/vim-wakatime'
 Plug 'https://github.com/neovimhaskell/haskell-vim'
 Plug 'https://github.com/alx741/vim-hindent'
-Plug 'https://github.com/github/copilot.vim'
-Plug 'https://github.com/jpalardy/vim-slime'
+Plug 'https://github.com/jpalardy/vim-slime', { 'on': 'SlimeSend' }
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'deathlyfrantic/deoplete-spell'
 call plug#end()
 " Mappings
-
+let g:deoplete#enable_at_startup = 1
 map , <leader>
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
-
 let g:workspace_create_new_tabs = 0
 let g:workspace_session_directory = $HOME . '/Storage/Sessions/'
 let g:workspace_autosave = 0
@@ -78,7 +79,6 @@ let g:workspace_autocreate = 1
 nnoremap <leader>s :ToggleWorkspace<CR>
 
 
-:colorscheme beekai
 
 
 let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
@@ -94,4 +94,14 @@ let g:slime_target = "tmux"
 let g:slime_paste_file = "$HOME/.slime_paste"
 let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"}
 set termguicolors
+let g:oceanic_next_terminal_bold = 1
+let g:oceanic_next_terminal_italic = 1
+syntax enable
+colorscheme 256_noir
+hi Normal guibg=NONE ctermbg=NONE
+hi LineNr guibg=NONE ctermbg=NONE
+hi SignColumn guibg=NONE ctermbg=NONE
+hi EndOfBuffer guibg=NONE ctermbg=NONE
+set dictionary+=/usr/share/dict/words
+set complete+=k
 

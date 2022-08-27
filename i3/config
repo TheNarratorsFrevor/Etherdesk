@@ -1,7 +1,7 @@
 set $mod Mod1
 
 font pango:Fira Code 10
-gaps inner 10
+gaps inner 0
 smart_gaps on
 smart_gaps inverse_outer
 smart_borders on
@@ -16,13 +16,14 @@ default_border none
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
-exec --no-startup-id dex --autostart --environment i3 &
-exec_always --no-startup-idxmodmap ~/.Xmodmap & 
+#exec --no-startup-id dex --autostart --environment i3 &
+exec_always --no-startup-id xmodmap ~/.Xmodmap & 
 exec --no-startup-id setxkbmap -option grp:alt_caps_toggle -layout us,ir & 
-exec --no-startup-id sed -i 's/^\(state: \).*/\1pause/' /home/morbid/.config/mpd/state && mpd &
-exec_always --no-startup-id numlockx &
-exec_always --no-startup-id ~/.config/polybar/launch.sh &
-exec_always --no-startup-id feh --bg-fill -r -z ~/wallpapers/winrip
+#exec --no-startup-id sed -i 's/^\(state: \).*/\1pause/' /home/morbid/.config/mpd/state && mpd &
+#exec_always --no-startup-id numlockx &
+#exec_always --no-startup-id ~/.config/polybar/launch.sh &
+exec_always --no-startup-id feh --bg-fill -r -z ~/Pictures/Wallpapers/pixelcity.jpg
+#exec_always killall mpd polybar
 set $bg #0C0C0E
 set $red #B26957
 set $green #B26957
@@ -195,8 +196,18 @@ for_window [class="^.*"] border pixel 0
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
-client.focused          $blue $blue $darkgray $purple $darkgray
-client.focused_inactive $darkgray $darkgray $yellow $purple $darkgray
-client.unfocused        $darkgray $darkgray $yellow $purple $darkgray
-client.urgent           $red $red $white $red $red
+# client.focused          $blue $blue $darkgray $purple $darkgray
+# client.focused_inactive $darkgray $darkgray $yellow $purple $darkgray
+# client.unfocused        $darkgray $darkgray $yellow $purple $darkgray
+# client.urgent           $red $red $white $red $red
+set $bgcolor #2e3440
+set $ibgcolor #3b4252
+set $textcolor #eceff4
+set $itextcolor #4c566a
+set $ubgcolor #bf616a
 
+#     border    background  text    indicator
+client.focused    $bgcolor  $bgcolor  $textcolor  $bgcolor
+client.unfocused  $ibgcolor $ibgcolor $itextcolor $ibgcolor
+client.focused_inactive $ibgcolor $ibgcolor $itextcolor $ibgcolor
+client.urgent   $ubgcolor $ubgcolor $textcolor  $ubgcolor
