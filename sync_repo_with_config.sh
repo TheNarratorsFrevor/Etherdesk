@@ -15,7 +15,7 @@ cp -r ~/.config/i3 .
 cp -r ~/.config/mpd .
 #cp -r ~/.config/conky .
 cp -r ~/.config/picom .
-cp ~/.Xmodmap
+cp ~/.Xmodmap .
 cp $HOME/.tmux.conf .
 # nvim stuff
 mkdir nvim
