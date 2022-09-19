@@ -8,3 +8,4 @@ alias wakatime-cli="wakatime"
 alias viml="nvim -S ~/.config/nvim/slime.vim"
 alias ec="emacsclient"
 export PATH="$PATH:$HOME/.spicetify"
+fish_add_path /home/morbid/.spicetify

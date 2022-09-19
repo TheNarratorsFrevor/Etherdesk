@@ -1,6 +1,7 @@
 call plug#begin('~/.config/nvim/plugs')
 Plug 'mhinz/vim-startify'
 Plug 'skywind3000/asyncrun.vim'
+Plug 'arzg/vim-colors-xcode'
 Plug 'sheerun/vim-polyglot'
 Plug 'mhartington/oceanic-next'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
@@ -97,11 +98,11 @@ set termguicolors
 let g:oceanic_next_terminal_bold = 1
 let g:oceanic_next_terminal_italic = 1
 syntax enable
-colorscheme 256_noir
+
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
 hi EndOfBuffer guibg=NONE ctermbg=NONE
 set dictionary+=/usr/share/dict/words
 set complete+=k
-
+colorscheme xcodedark
