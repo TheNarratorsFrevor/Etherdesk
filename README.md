@@ -1,4 +1,5 @@
-![Screenshot](https://github.com/DisheartenedEthereal/Etherdesk/raw/main/ss_2.png)
+![Screenshot](https://github.com/DisheartenedEthereal/Etherdesk/raw/main/ss_desk.png)
+![Screenshot](https://github.com/DisheartenedEthereal/Etherdesk/raw/main/ss_nvim.png)
 
 # Ethereal's Desk
 This repository contains all my dot-files alongside the tools i use to manage them, this setup is quite complicated and somewhat bloated, so feel free to adapt the whole environment or parts of it to your liking.
