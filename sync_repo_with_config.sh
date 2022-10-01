@@ -18,9 +18,7 @@ cp -r ~/.config/picom .
 cp ~/.Xmodmap .
 cp $HOME/.tmux.conf .
 # nvim stuff
-mkdir nvim
-cp -r ~/.config/nvim/*.vim nvim/
-cp -r ~/.config/nvim/colors nvim/
-
+rm -rf nvim
+cp ~/.config/nvim . -r
 # make an automatic commit
 git add . && git commit -m "This is being done automatically."

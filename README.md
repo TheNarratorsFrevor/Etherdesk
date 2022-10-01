@@ -8,10 +8,10 @@ This repository contains all my dot-files alongside the tools i use to manage th
 I needed a setup that could handle multiple programming environments whilst being as lightweight and minimal as possible and so this is what i came up with.
 
 ## Applications, dependencies, ETC.
-For **WindowManager** , i use [i3-gaps](https://github.com/Airblader/i3), as for **code editors and IDEs**, i use [NVim (primary)](https://github.com/neovim/neovim), [Emacs (secondary),](https://github.com/emacs-mirror/emacs) [VSCodium](https://vscodium.com/) (rarely). 
+For **WindowManager** , i use [i3-gaps](https://github.com/Airblader/i3), as for **code editors and IDEs**, i use [NVim (primary)](https://github.com/neovim/neovim), [Emacs (secondary),](https://github.com/emacs-mirror/emacs) [VSCodium](https://vscodium.com/) (rarely).
 here's a list of everything you *probably* need to run this setup, as a yay command :
 ```sh
-yay -S polybar neovim i3-gaps dunst ncmpcpp rofi fish kitty mpd emacs flameshot feh  
+yay -S polybar neovim i3-gaps dunst ncmpcpp rofi fish kitty mpd emacs flameshot feh
 ```
 ## Installation
 
@@ -21,5 +21,5 @@ I will make a install script soon, but for now, you could figure it out yourself
 
 This setup is practically ravaged, i shamelessly stole some of the stuff from others and i also made some stuff myself, i will try to credit the owners.
 
-> I3-Gaps & Rofi : https://github.com/Manas140/dotfiles 
-
+> I3-Gaps & Rofi : https://github.com/Manas140/dotfiles
+> Nvim : https://github.com/jdhao/nvim-config

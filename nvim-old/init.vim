@@ -42,7 +42,7 @@ call plug#end()
 let g:deoplete#enable_at_startup = 1
 map , <leader>
 nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-N> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 let g:workspace_create_new_tabs = 0
 let g:workspace_session_directory = $HOME . '/Storage/Sessions/'
