@@ -8,6 +8,10 @@ This repository contains all my dot-files alongside the tools i use to manage th
 
 I needed a setup that could handle multiple programming environments whilst being as lightweight and minimal as possible and so this is what i came up with.
 
+
+### EVERYTHING HERE IS OUTDATED, WAIT FOR AN UPDATED REQ / INSTALL GUIDE
+
+
 ## Applications, dependencies, ETC.
 For **WindowManager** , i use [i3-gaps](https://github.com/Airblader/i3), as for **code editors and IDEs**, i use [NVim (primary)](https://github.com/neovim/neovim), [Emacs (secondary),](https://github.com/emacs-mirror/emacs) [VSCodium](https://vscodium.com/) (rarely).
 here's a list of everything you *probably* need to run this setup, as a yay command :
